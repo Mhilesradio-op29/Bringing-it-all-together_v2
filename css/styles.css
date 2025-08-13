@@ -1,4 +1,4 @@
-:root {
+::root {
   --bg: #0a0f1a;
   --fg: #e5e7eb;
   --muted: #94a3b8;
@@ -11,7 +11,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -24,14 +25,15 @@ body {
 }
 
 .container {
-  max-width: 960px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 1rem;
 }
 
-.site-header, .site-footer {
+.site-header,
+.site-footer {
   border-bottom: 1px solid var(--border);
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.02), rgba(0, 0, 0, 0.12));
+  background: linear-gradient(180deg, rgba(255, 255, 255, .02), rgba(0, 0, 0, .12));
 }
 
 .site-footer {
@@ -42,65 +44,85 @@ body {
 .header-wrap {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: .75rem;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .logo {
-  border-radius: 8px;
+  border-radius: 10px;
   display: block;
 }
 
-h1, h2, h3 {
-  margin: 0.5rem 0 1rem;
+.hero-text {
+  flex: 1;
+  min-width: 230px;
+}
+
+.subtitle {
+  color: var(--muted);
+  margin: .25rem 0 0;
+}
+
+h1,
+h2,
+h3 {
+  margin: .5rem 0 1rem;
 }
 
 .nav a {
   color: var(--fg);
   text-decoration: none;
   margin-right: 1rem;
-  padding: 0.25rem 0.5rem;
+  padding: .25rem .5rem;
   border-radius: 6px;
 }
 
-.nav a[aria-current="page"], .nav a:hover {
+.nav a[aria-current="page"],
+.nav a:hover {
   background: #0b1220;
   color: var(--accent);
 }
 
-section {
+.card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 1rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .25);
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
   margin: 1rem 0;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
-label {
-  display: block;
-  margin: 0.5rem 0;
-  color: var(--muted);
-}
-
-input, textarea {
+.thumb img {
   width: 100%;
-  padding: 0.6rem 0.75rem;
+  height: 160px;
+  object-fit: cover;
   border-radius: 8px;
-  border: 1px solid var(--border);
-  background: #0b1220;
-  color: var(--fg);
 }
 
-button, .button {
+.button {
+  display: inline-block;
   background: var(--accent);
   color: #001019;
-  border: none;
-  padding: 0.6rem 0.9rem;
-  border-radius: 8px;
-  cursor: pointer;
   text-decoration: none;
+  padding: .6rem .9rem;
+  border-radius: 8px;
   font-weight: 600;
+}
+
+.button.secondary {
+  background: #64748b;
+  color: white;
+}
+
+a.button:hover {
+  filter: brightness(1.05);
 }
 
 img {
