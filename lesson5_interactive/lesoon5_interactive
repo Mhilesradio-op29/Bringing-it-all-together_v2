@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JS Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- 
+        Author: Mark Hiles
+        Date: June 30, 2025
+        File: index.html
+        Description: JavaScript interactivity assignment main page
+    -->
+</head>
+<body>
+    <h1>JavaScript Interactivity</h1>
+
+    <main>
+        <!-- 30-word Lorem paragraph -->
+        <p id="para1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vehicula efficitur, ultrices leo, pulvinar ex, sed facilisis.
+        </p>
+
+        <!-- 50-word Lorem paragraph -->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum sagittis metus, nec accumsan ligula blandit in. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Duis euismod.
+        </p>
+
+        <!-- Page greeting -->
+        <p id="greeting">Hello, world!</p>
+
+        <!-- Form controls -->
+        <label for="newGreeting">New Greeting:</label>
+        <input type="text" id="newGreeting" aria-label="New Greeting Text"><br><br>
+
+        <label for="newPara1">New First Paragraph:</label>
+        <input type="text" id="newPara1" aria-label="New First Paragraph Text"><br><br>
+
+        <label for="bgColor">Select Background Color:</label>
+        <select id="bgColor" aria-label="Background Color Selection">
+            <option value="white">White</option>
+            <option value="lightgray">Light Gray</option>
+            <option value="beige">Beige</option>
+            <option value="lavender">Lavender</option>
+        </select><br><br>
+
+        <!-- Button to trigger JavaScript -->
+        <button onclick="applyChanges()">Apply Changes</button>
+    </main>
+
+    <!-- JavaScript file link -->
+    <script src="scripts.js"></script>
+</body>
+</html>

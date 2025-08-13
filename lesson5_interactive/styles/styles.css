@@ -1,0 +1,17 @@
+/* Mark Hiles - July 2, 2025 */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: white;
+    color: #000;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+}

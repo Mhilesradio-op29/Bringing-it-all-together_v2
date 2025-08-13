@@ -1,0 +1,99 @@
+body {
+    font-family: garamond, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #222;
+    color: firebrick;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.featured-albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.featured-albums img {
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+    border-radius: 8px;
+}
+
+.featured-albums img:hover {
+    transform: scale(1.2) translateY(10px);
+}
+
+.inventory {
+    padding: 20px;
+    background-color: #fafafa;
+}
+
+.inventory h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.about-page {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.highlight-box {
+    float: right;
+    width: 300px;
+    padding: 15px;
+    background-color: #e0e0e0;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.relative-text {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 1.1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}

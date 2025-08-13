@@ -1,0 +1,58 @@
+/* === Custom CSS Attributes === */
+/* text-shadow: adds a shadow to text to enhance readability or style — w3chools.com */
+h1 {
+    text-shadow: 2px 2px 4px #333;
+}
+
+/* letter-spacing: increases spacing between letters — w3chools.com */
+h2 {
+    letter-spacing: 1.5px;
+}
+
+/* box-shadow: adds shadow around elements for depth — w3chools.com*/
+img {
+    box-shadow: 0 4px 8px rgba(184, 194, 40, 0.5);
+}
+
+/* === General Styles === */
+body {
+    background-color: #f0f0f5;
+    color: #222;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1f1f3d;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1, h2 {
+    color: #34b35a;
+}
+
+/* Multiple selectors */
+ul, ol {
+    margin-left: 2rem;
+    padding-left: 1rem;
+}
+
+/* ID selector for "why-sell" section */
+#why-sell {
+    border-top: 4px solid #444;
+    border-bottom: 4px solid #444;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+/* Add some spacing to image captions */
+.image-caption {
+    text-align: center;
+    font-style: italic;
+    margin-top: 0.5rem;
+    color: #555;
+}

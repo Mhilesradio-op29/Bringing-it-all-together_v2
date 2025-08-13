@@ -1,0 +1,48 @@
+<!-- Mark Hiles - July 2, 2025 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interactive JS Page</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <h1>JavaScript Interactivity</h1>
+    <main>
+        <p id="para1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum efficitur sapien at ligula fermentum, 
+            vitae sollicitudin metus dapibus. Integer consequat.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed convallis libero vel nulla ultrices, 
+            eget vestibulum ex aliquam. Phasellus a sem non risus rutrum luctus. Duis vel nibh metus. 
+            Mauris in neque magna. Fusce vehicula justo id feugiat bibendum.
+        </p>
+        <p id="greeting">Hello, world!</p>
+
+        <label for="bgColorSelect">Choose Background Color:</label>
+        <select id="bgColorSelect">
+            <option value="white">White</option>
+            <option value="lightgray">Light Gray</option>
+            <option value="lightblue">Light Blue</option>
+            <option value="beige">Beige</option>
+        </select>
+
+        <br><br>
+
+        <label for="greetingInput">New Greeting:</label>
+        <input type="text" id="greetingInput">
+
+        <br><br>
+
+        <label for="para1Input">Update First Paragraph:</label>
+        <input type="text" id="para1Input">
+
+        <br><br>
+
+        <button onclick="applyChanges()">Apply Changes</button>
+    </main>
+
+    <script src="scripts/javascripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer 40,000 Miniatures for Sale - Help Fund My Tuition!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Help Fund My Tuition — Buy My Warhammer 40K Army!</h1>
+    </header>
+
+    <main>
+        <section id="why-sell">
+            <h2>Why I Am Selling My Army</h2>
+            <p>
+                Selling this collection is not easy. Over the past few years, I have spent countless hours building, painting, and playing with my <strong>Warhammer 40,000</strong> miniatures. It has been one of my favorite hobbies — a great way to relax, be creative, and connect with friends. Unfortunately, tuition bills do not pay themselves, and I have reached a point where I need to make a difficult decision. <em>This collection means a lot to me</em>, but my education must come first.
+            </p>
+
+            <p>
+                Every figure has been painted by hand with great care and attention to detail. From the shading on the armor to the realistic bases, I have tried to make each model stand out on the battlefield. If you have ever played Warhammer, you understand how much work and passion go into each piece. <strong>This is not just plastic — it is hundreds of hours of effort, strategy, and pride.</strong> Whether you are building your own army or simply enjoy well-painted miniatures, this collection is worth a look.
+            </p>
+
+            <p>
+                The collection includes over 80 figures, including Space Marines, HQ units, vehicles, and custom terrain pieces. Most are fully painted and ready to play. There are also a few rare and limited-edition models that would make excellent additions to any army. I am asking between <strong>$20 and $70</strong> per item, depending on the piece. If you are interested or have any questions, please feel free to reach out at <em>pennstatemark@gmail.com</em>. I would love for these models to go to someone who will enjoy them as much as I have.
+            </p>
+        </section>
+
+        <section id="special-reasons">
+            <h2>Why This Collection is Special</h2>
+            <ul>
+                <li>Each miniature is <em>meticulously hand-painted</em> to a high standard.</li>
+                <li>The army is fully assembled and ready for immediate play.</li>
+                <li>Includes a variety of units, offering diverse strategic options.</li>
+                <li>Some models are <strong>rare and limited-edition</strong>, increasing their value.</li>
+                <li>Comes from a smoke-free home and has been well-maintained.</li>
+                <li>A great starting point for a new player or an excellent addition for a veteran.</li>
+            </ul>
+        </section>
+
+        <section id="items-for-sale">
+            <h2>Items for Sale</h2>
+            <ol>
+                <li>Space Marine Tactical Squad (10 models)</li>
+                <li>Primaris Intercessors (5 models)</li>
+                <li>
+                    Chaos Space Marine Squad (10 models)
+                    <ol>
+                        <li>Chaos Lord (1 model)</li>
+                        <li>Possessed (5 models)</li>
+                        <li>Chaos Rhino (1 vehicle)</li>
+                    </ol>
+                </li>
+                <li>Redemptor Dreadnought (1 model)</li>
+                <li>Custom-built Imperial Knight (1 model)</li>
+                <li>Assorted Terrain Pieces (various)</li>
+            </ol>
+        </section>
+
+        <section id="more-info">
+            <h2>Learn More About Warhammer 40,000</h2>
+            <p>
+                For more information about the rich lore and universe of Warhammer 40,000, you can visit its official 
+                <a href="https://en.wikipedia.org/wiki/Warhammer_40,000" target="_blank">Wikipedia page</a>.
+            </p>
+        </section>
+
+        <section id="image-section">
+            <!-- Image source: Games Workshop promotional image -->
+            <img src="warhammer-40k.jpg" 
+                 alt="Painted Warhammer 40K miniatures" 
+                 width="600">
+            <p class="image-caption">Example of painted Warhammer 40,000 miniatures.</p>
+        </section>
+
+        <section id="item-details-link">
+            <h2>Featured Item Detail</h2>
+            <p>
+                Want to see more details about a specific item? Check out the 
+                <a href="itemdetail1.html">Primaris Intercessor Squad</a>!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Warhammer 40K Collection Sale</p>
+    </footer>
+</body>
+</html>
